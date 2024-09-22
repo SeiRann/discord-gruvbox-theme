@@ -3,14 +3,12 @@
  * @description A gruvbox feel to discord.
  * @author seiran
  * @version 1.1.0
- * @authorId 508863359777505290
- * @authorLink https://www.refact0r.dev
 */
 
 /* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
 
 @import url('https://refact0r.github.io/midnight-discord/midnight.css');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Jacquarda+Bastarda+9&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700');
 
 /* customize things here */
 :root {
@@ -31,7 +29,7 @@
 	--accent-2: var(--accent-4); /* general unread/mention elements */
 	--accent-3: var(--text-2); /* accent buttons */
 	--accent-4: #689d6a; /* accent buttons when hovered */
-	--accent-5: purple; /* accent buttons when clicked */
+	--accent-5: #d65d0e; /* accent buttons when clicked */
 	--mention: #3c3836; /* mentions & mention messages */
 	--mention-hover: #7c6f64; /* mentions & mention messages when hovered */
 
