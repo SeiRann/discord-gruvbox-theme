@@ -2,7 +2,7 @@
  * @name gruvbox
  * @description A gruvbox feel to discord.
  * @author seiran
- * @version 1.0.0
+ * @version 1.1.0
  * @authorId 508863359777505290
  * @authorLink https://www.refact0r.dev
 */
@@ -27,29 +27,29 @@
 	--streaming-indicator: hsl(260, 60%, 60%); /* change to #593695 for default purple */
 
 	/* accent colors */
-	--accent-1: #fabd2f; /* links */
-	--accent-2: #458588; /* general unread/mention elements */
-	--accent-3: #d65d0e; /* accent buttons */
+	--accent-1: #83a598; /* links */
+	--accent-2: var(--accent-4); /* general unread/mention elements */
+	--accent-3: var(--text-2); /* accent buttons */
 	--accent-4: #689d6a; /* accent buttons when hovered */
-	--accent-5: white; /* accent buttons when clicked */
+	--accent-5: purple; /* accent buttons when clicked */
 	--mention: #3c3836; /* mentions & mention messages */
 	--mention-hover: #7c6f64; /* mentions & mention messages when hovered */
 
 	/* text colors */
 	--text-0: #fbf1c7; /* text on colored elements */
-	--text-1: var(--text-2); /* other normally white text */
-	--text-2: #d5c4a1; /* headings and important text */
-	--text-3: #b8ab8c; /* normal text */
-	--text-4: #bdae93; /* icon buttons and channels */
-	--text-5: #a89984; /* muted channels/chats and timestamps */
+	--text-1: #d5c4a1; /* other normally white text */
+	--text-2: #458588; /* headings and important text */
+	--text-3: #fbf1c7; /* normal text */
+	--text-4: #ebdbb2; /* icon buttons and channels */
+	--text-5: var(--text-2) ; /* muted channels/chats and timestamps */
 
 	/* background and dark colors */
-	--bg-1: #3c3836; /* dark buttons when clicked */
-	--bg-2: #1d2021; /* dark buttons */
+	--bg-1: #7c6f64; /* dark buttons when clicked */
+	--bg-2: #504945; /* dark buttons */
 	--bg-3: #32302f; /* spacing, secondary elements */
 	--bg-4: #282828; /* main background color */
-	--hover: hsla(230, 20%, 40%, 0.1); /* channels and buttons when hovered */
-	--active: hsla(220, 20%, 40%, 0.2); /* channels and buttons when clicked or selected */
+	--hover: #3c3836; /* channels and buttons when hovered */
+	--active: var(--bg-2); /* channels and buttons when clicked or selected */
 	--message-hover: hsla(220, 0%, 0%, 0.1); /* messages when hovered */
 
 	/* amount of spacing and padding */
@@ -57,10 +57,10 @@
 
 	/* animations */
 	/* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
-	--list-item-transition: 0.2s ease; /* channels/members/settings hover transition */
-	--unread-bar-transition: 0.2s ease; /* unread bar moving into view transition */
-	--moon-spin-transition: 0.4s ease; /* moon icon spin */
-	--icon-spin-transition: 1s ease; /* round icon button spin (settings, emoji, etc.) */
+	--list-item-transition: 0.1s ease-in-out; /* channels/members/settings hover transition */
+	--unread-bar-transition: 0.1s ease; /* unread bar moving into view transition */
+	--moon-spin-transition: 0.2s ease; /* moon icon spin */
+	--icon-spin-transition: 0.5s ease; /* round icon button spin (settings, emoji, etc.) */
 
 	/* corner roundness (border-radius) */
 	--roundness-xl: 10px; /* roundness of big panel outer corners */
